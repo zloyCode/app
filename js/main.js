@@ -15,7 +15,9 @@ $(function(){
     $('.order-call').on('click', function(){
         showPopup();
     });
-
+    $('.order-call').on('click', function(){
+        showPopup();
+    });
     $('.close').on('click', function(){
         clearForm();
         closePopup();
